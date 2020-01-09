@@ -1,0 +1,175 @@
+
+body{
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+}
+
+#container{
+    width: 380px;
+    margin: 30px auto;
+}
+
+#container_sub{
+    width: 380px auto;
+    margin: 30px auto;
+    background-color: rgb(245, 245, 245);
+}
+
+form{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+form#logout{
+    text-align: right;
+}
+
+form#right{
+    text-align: right;
+}
+
+input[type=text],
+input[type=password]{
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.btn{
+    width: 100px;
+    padding: 7px;
+    border-radius: 5px;
+    color: #fff;
+    background: #00aaff;
+    box-shadow: 0 3px 0 #0088cc;
+    cursor: pointer;
+    margin: 0 auto 15px;
+}
+
+.btn_edit{
+    width: 100px;
+    padding: 7px;
+    border-radius: 5px;
+    color: #fff;
+    background: #00aaff;
+    box-shadow: 0 2px 0 #0088cc;
+    cursor: pointer;
+    margin: 0 auto 15px;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.fs12{
+    font-size: 12px;
+    font-weight: normal;
+}
+.err{
+    color: #ff3d00;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+h1{
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+ul > li{
+    padding: 3px 0;
+}
+
+h1#text{
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#article{
+    width: 280px;
+    margin: 30px auto;
+    border-bottom: 1px solid #ccc;
+    word-wrap: break-word; /* <p>とかに文字を納めたいときに使う、折り返す書き方 */
+}
+
+#text{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+#left{
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+#right{
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+#center{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+#attention{
+    color: #ff3d00;
+}
+
+#attention_center{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 15px;
+    color: #ff3d00;
+}
+
+input#good_button{
+    text-align: center;
+    color: rgb(255, 244, 244);
+    background    : rgba(255, 127, 127, 0.534);     /* 背景色  */
+}
+
+input#good{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background    : rgba(255, 229, 229, 0.534);     /* 背景色  */
+}
+
+
+/* pager */
+ul.pageNav01 {
+	margin: 0 0 10px;
+	padding: 10px 10px 5px;
+	background: rgb(241, 247, 255);
+	text-align: center;
+}
+
+ul.pageNav01 li {
+	display: inline;
+	margin: 0 2px;
+	padding: 0;
+}
+
+ul.pageNav01 li span,
+ul.pageNav01 li a {
+	display: inline-block;
+	margin-bottom: 5px;
+	padding: 1px 8px;
+	background: #fff;
+	border: 1px solid rgb(224, 224, 224);
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+ul.pageNav01 li a:hover {
+	background: #eeeff7;
+	border-color: #00f;
+}

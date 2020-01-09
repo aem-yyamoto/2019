@@ -1,0 +1,5 @@
+AuthUserFile    /home/www/internship2019/.htp
+AuthGroupFile   /dev/null
+AuthName        "Please Enter Your Password"
+AuthType        Basic
+Require valid-user
